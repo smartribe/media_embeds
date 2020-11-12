@@ -28,13 +28,27 @@
             background-color:rgb(24, 137, 175);
             padding: 13px;
         }
+        
+        .example-selector {
+            text-decoration: underline blue;
+            color: red;
+        }
+
+       .unordered_list_background {
+           background-color: yellow;
+       }
+
+       #first_unordered_list_element {
+           color: royalblue;
+           background-color: gray;
+       }
 
         
     </style>
 </head>
 <body>
     <h3>list of five african countries in the world</h3>
-    <ul>
+    <ul id="first_unordered_list_element">
         <li>Ghana</li>
         <li>South Africe</li>
         <li>Nigeria</li>
@@ -45,10 +59,19 @@
 
     <a href="index.html" class="btn">show more</a>
 
+
+   <a href="tables.html" target="_self" class="example-selector">view table.html for more information</a>
+
     <br>
     <br>
 
     <a href="https://css-tricks.com/almanac/selectors/" class="btn">css selectors....</a>
+
+
+    <br>
+    <br>
+
+    <a href="https://www.cbs.com/shows/star-trek-discovery/video/H_y5oaUVjtq8NmOnkVhQVUuTBRbSit8y/star-trek-discovery-die-trying/" target="_blank">view video</a>
 
     
 
@@ -59,10 +82,12 @@
             <h3>Orange</h3>
             <img width="150px" src="https://cdn.pixabay.com/photo/2012/04/26/12/52/orange-42395_960_720.png" alt="">
         </li>
-        <li value="34">
-            <h3>Banana</h3>
-            <img src="https://cdn.pixabay.com/photo/2012/04/26/18/41/banana-42793_960_720.png" width="150px" alt="">
-        </li>
+        <a href="https://www.healthxchange.sg/food-nutrition/food-tips/good-reasons-eat-banana-today" target="_blank">
+            <li value="34">
+                <h3>Banana</h3>
+                <img src="https://cdn.pixabay.com/photo/2012/04/26/18/41/banana-42793_960_720.png" width="150px" alt="">
+            </li>
+        </a>
         <li>Apples</li>
         <li>Pineapple</li>
     </ol>
@@ -72,7 +97,7 @@
     <h4>four Countries with more than five states - with their states</h4>
     <ol>
         <li>United states
-            <ul>
+            <ul id="first_unordered_list_element">
                 <li>New York</li>
                 <li>California</li>
                 <li>Texas</li>
@@ -100,7 +125,7 @@
     </ol>
 
     <h5>Types of css selectors</h5>
-    <ul>
+    <ul class="unordered_list_background">
         <li>Type selector</li>
         <li>class selector</li>
         <li>id selector (research on this)</li>
